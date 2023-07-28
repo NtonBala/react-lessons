@@ -1,10 +1,6 @@
-import { render } from './utils.js';
+import { createTextElement, render } from './utils.js';
 
-// textEl as plain JSX object
-const textEl = {
-  type: 'TEXT_ELEMENT',
-  props: { nodeValue: 'Hello, World!' },
-};
+const textEl = createTextElement('Hello world');
 
 const container = document.getElementById('root');
 

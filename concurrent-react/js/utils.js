@@ -14,3 +14,13 @@ export function render(element, container) {
   element.props.children?.forEach((child) => render(child, dom)); // TODO: Check if second argument is dom
   container.appendChild(dom);
 }
+
+export function createTextElement(text) {
+  return {
+    type: 'TEXT_ELEMENT',
+    props: {
+      nodeValue: text,
+      children: [],
+    },
+  };
+}
