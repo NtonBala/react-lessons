@@ -11,7 +11,7 @@ export function render(element, container) {
       dom[name] = element.props[name];
     });
 
-  element.props.children?.forEach((child) => render(child, dom)); // TODO: Check if second argument is dom
+  element.props.children?.forEach((child) => render(child, dom));
   container.appendChild(dom);
 }
 
