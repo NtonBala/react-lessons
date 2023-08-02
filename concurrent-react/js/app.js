@@ -1,12 +1,7 @@
-import { createTextElement, render } from './utils.js';
+import { createElement, createTextElement, render } from './utils.js';
 
-const textEl = createTextElement('Hello world');
-const element = {
-  type: 'h1',
-  props: {
-    children: [textEl],
-  },
-};
+const textEl = createTextElement('Hello world!');
+const element = createElement('h1', undefined, textEl);
 const container = document.getElementById('root');
 
 render(element, container);

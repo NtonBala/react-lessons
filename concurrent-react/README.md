@@ -4,4 +4,4 @@ Relates to React expert's [presentation](https://egghead.io/talks/react-concurre
 
 [Demo](https://ntonbala.github.io/react-lessons/concurrent-react/)
 
-// TODO: Proceed from 4:47
+// TODO: Proceed from 5:20
