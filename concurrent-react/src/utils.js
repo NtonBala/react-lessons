@@ -1,6 +1,5 @@
 export function render(element, container) {
-  // TODO: Finish if statement
-  // if (typeof element.type === 'function') element = element...
+  if (typeof element.type === 'function') element = element.type();
 
   const dom = element.type === 'TEXT_ELEMENT' ? document.createTextNode('') : document.createElement(element.type);
   const isProperty = (key) => key !== 'children';
