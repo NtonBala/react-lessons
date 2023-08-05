@@ -1,5 +1,7 @@
 export function render(element, container) {
-  if (typeof element.type === 'function') element = element.type();
+  if (typeof element.type === 'function') {
+    element = element.type();
+  }
 
   const dom = element.type === 'TEXT_ELEMENT' ? document.createTextNode('') : document.createElement(element.type);
   const isProperty = (key) => key !== 'children';
@@ -24,7 +26,6 @@ export function createTextElement(text) {
     },
   };
 }
-
 export function createElement(type, props, ...children) {
   return {
     type,

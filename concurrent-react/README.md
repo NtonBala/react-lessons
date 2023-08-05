@@ -1,5 +1,10 @@
 # Concurrent React from Scratch
 
-Relates to React expert's [presentation](https://egghead.io/talks/react-concurrent-react-from-scratch) by [Shawn Wang](https://egghead.io/q/resources-by-shawn-wang) about understanding mental model of Concurrent React by building a tiny clone of it, learning about how React renders components, schedules Time-Slicing updates with a Work Loop, add Hooks and Suspense model.
+Relates to React expert's [presentation](https://www.youtube.com/watch?v=yeyiA9U8Ep) by [Shawn Wang](https://egghead.io/q/resources-by-shawn-wang) about understanding mental model of _concurrent_ React by building a tiny clone of it, understanding how React renders components, schedules _Time-Slicing updates_ with a _Work Loop_, understanding _hooks_ and _Suspense_ model.
+
+Links:
+
+- [CodeSandbox example](https://codesandbox.io/s/react-byteconf-1f7mq)
+- [react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture) by [Andrew Clark](https://github.com/acdlite)
 
 In order to run the project - download repository, go to `concurrent-react` directory, run `npm install` and then `npm start`.
