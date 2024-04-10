@@ -1,6 +1,8 @@
 # Concurrent React from Scratch
 
-Relates to React expert's [presentation](https://www.youtube.com/watch?v=yeyiA9U8Ep) by [Shawn Wang](https://egghead.io/q/resources-by-shawn-wang) about understanding mental model of _concurrent_ React by building a tiny clone of it, understanding how React renders components, schedules _Time-Slicing updates_ with a _Work Loop_, understanding _hooks_ and _Suspense_ model.
+Based on [Concurrent React From Scratch (ByteConf React)](https://www.youtube.com/watch?v=yeyiA9U8Ep8) presentation by [Shawn Wang](https://egghead.io/q/resources-by-shawn-wang).
+
+The project is about understanding mental model of _concurrent_ React by building a tiny clone of it, understanding how React renders components, schedules _Time-Slicing updates_ with a _Work Loop_, understanding _hooks_ and _Suspense_ model.
 
 Links:
 
